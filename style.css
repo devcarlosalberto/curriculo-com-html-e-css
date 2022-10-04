@@ -1,0 +1,142 @@
+/* Global Values */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(25, 25, 40);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(235, 235, 235);
+}
+
+.page {
+    display: flex;
+
+    max-width: 1200px;
+
+    margin: 50px auto 0;
+
+    border-bottom: 1px solid gray;
+}
+
+.page .left,
+.page .right,
+footer {
+    padding: 25px;
+}
+
+.page .left {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+
+    border-right: 1px solid gray;
+}
+
+
+
+/* Uniques Properties */
+.page .left #photo {
+    width: 250px;
+    height: 250px;
+
+    margin: 0 auto;
+
+    border-radius: 10px;
+}
+
+.page .board {
+    background-color: rgb(32, 32, 48);
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+}
+
+.page .board:nth-child(2) {
+    margin-top: 20px;
+}
+
+.page .board .title {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.page .sub-board {
+    background: rgb(53, 53, 77);
+
+    margin-top: 15px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+.page .sub-board .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.page .sub-board ul {
+    list-style: none;
+
+    margin-left: 10px;
+}
+
+.page .board label {
+    display: block;
+    margin-top: 10px;
+}
+
+.page .board .quest {
+    font-weight: bold;
+}
+
+.page .right header {
+    text-align: center;
+}
+
+.page .right h1 {
+    font-size: 60px;
+
+    margin-bottom: 14px;
+}
+
+.page .right small {
+    font-size: 20px;
+}
+
+.page .right h1,
+.page .right h2 {
+    margin-top: 40px;
+
+    color: white;
+}
+
+.page .right h2 {
+    font-size: 35px;
+}
+
+.page .right p {
+    font-size: 18px;
+
+    margin: 20px 0 20px 20px;
+
+    text-indent: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .phrase {
+    font-style: italic;
+}
